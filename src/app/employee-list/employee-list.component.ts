@@ -12,6 +12,8 @@ import { Router } from '@angular/router';
 })
 export class EmployeeListComponent implements OnInit {
 
+  employees: Observable<Employee[]>;
+  
   constructor() { }
 
   ngOnInit(): void {
